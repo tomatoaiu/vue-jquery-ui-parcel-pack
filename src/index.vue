@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="halo">say!</button>
+    <div id="draggable"></div>
   </div>
 </template>
 
@@ -13,10 +13,18 @@ export default {
   },
   mounted () {
     $(() => {
-      $(document).on("click", ".halo", () => {
-        console.log(this.word)
-      })
+      $( "#draggable" ).draggable();
     })
   }
 }
 </script>
+
+<style scoped>
+#draggable {
+  display: block;
+  border: 1px solid #aaa;
+  width: 100px;
+  height: 100px;
+}
+</style>
+
