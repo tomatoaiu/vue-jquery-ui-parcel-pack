@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ word }}
+    <button class="halo">say!</button>
   </div>
 </template>
 
@@ -10,6 +10,13 @@ export default {
     return {
       word: "Hello, world"
     }
+  },
+  mounted () {
+    $(() => {
+      $(document).on("click", ".halo", () => {
+        console.log(this.word)
+      })
+    })
   }
 }
 </script>

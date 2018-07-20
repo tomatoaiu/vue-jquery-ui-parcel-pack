@@ -1,4 +1,4 @@
-# Vue-Parcel-Pack
+# Vue-Jquery-Parcel-Pack
 template vue and parcel
 ## Usage
 ```

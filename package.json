@@ -1,5 +1,5 @@
 {
-  "name": "parcel-vue-pack",
+  "name": "parcel-jquery-vue-pack",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
@@ -11,13 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.3.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
     "@vue/component-compiler-utils": "^2.0.0",
     "parcel-bundler": "^1.9.2",
-    "vue-template-compiler": "^2.5.16",
-    "vue-hot-reload-api": "^2.3.0"
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.16"
   }
 }
